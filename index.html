@@ -23,10 +23,10 @@
                 <a class="nav-link active" id="pagename"aria-current="page" href="#">Home</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <div class="d-flex">
+              <input class="form-control me-2" id="search"type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success"  type="submit" onclick="search()">Search</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -80,6 +80,7 @@
         <button type="submit" class="btn btn-success" onclick="AddBook()" >Add Book</button>
       </div>
       <hr style="width: 85%; margin: auto; margin-top: 10px;">
+      <h1 id="libhead">Library Books</h1>
       <table class="table container table-success table-striped table"  style="width: 60%; margin-top: 10px;">
         <thead>
           <tr>

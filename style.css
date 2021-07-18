@@ -3,3 +3,20 @@
  text-decoration: underline;
  padding: 5px;
 }
+#libhead{
+    margin: auto;
+    text-align: center;
+    color: green;
+    border: 2px solid green;
+    width: 25%;
+    display: block;
+    transition: all 1s ease-in-out.1s;
+}
+#libhead:hover{
+   background-color: green;
+   width: 30%;
+   color: white;
+   padding: 15px;
+   border-radius: 50px;
+   font-size: 2rem;
+}
